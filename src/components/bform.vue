@@ -5,23 +5,23 @@
     <div class="tposition">
         <div class="rotate">
             <div class="scope">
-                <span style="--i:1;"><img src="https://i.postimg.cc/BQcRL38F/pexels-photo-761963.jpg"
+                <span style="--i:1;"><img src="https://i.pinimg.com/564x/b1/8f/fc/b18ffc5a92ba20ce7458c4d13b8c33b5.jpg"
                         alt="not found"></span>
-                <span style="--i:2;"><img src="https://i.postimg.cc/1RWVB11x/pexels-photo-941693.jpg"
+                <span style="--i:2;"><img src="https://i.pinimg.com/736x/63/cd/b4/63cdb4c904176f5c47c33868c9fc1ad9.jpg"
                         alt="not found"></span>
-                <span style="--i:3;"><img src="https://i.postimg.cc/CMfHRKfP/woman-2003647-960-720.jpg"
+                <span style="--i:3;"><img src="https://guidable.co/wp-content/uploads/2016/11/rose-1868654_640.jpg"
                         alt="not found"></span>
-                <span style="--i:4;"><img src="https://i.postimg.cc/T1rDCpVT/beautiful-1274056-960-720.jpg"
+                <span style="--i:4;"><img src="https://t3.ftcdn.net/jpg/05/61/95/92/360_F_561959204_9phU1C8pi6PzjsSnfswZAqnDtsmTd8c3.jpg"
                         alt="not found"></span>
-                <span style="--i:5;"><img src="https://i.postimg.cc/SNf99YQr/woman-1807533-960-720.jpg"
+                <span style="--i:5;"><img src="https://cdn.wallpapersafari.com/50/85/cVN9Qw.jpg"
                         alt="not found"></span>
-                <span style="--i:6;"><img src="https://i.postimg.cc/2SHBcpZL/pexels-photo-4664520.jpg"
+                <span style="--i:6;"><img src="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt19prodlp/products/p-red-and-pink-roses-bouquet-62563-m.jpg"
                         alt="not found"></span>
                 <span style="--i:7;"><img
-                        src="https://i.postimg.cc/CxBzNcjw/Opera-Snapshot-2020-07-03-162022-www-freepik-com.png"
+                        src="https://www.kindpng.com/picc/m/204-2049277_kawaii-cute-bunny-white-rabbit-cartoon-chibi-hd.png"
                         alt="not found"></span>
                 <span style="--i:8;"><img
-                        src="https://i.postimg.cc/0QckxSpt/Opera-Snapshot-2020-07-03-161422-www-freepik-com.png"
+                        src="https://static.vecteezy.com/system/resources/previews/033/108/991/non_2x/super-cute-teddy-bears-couple-in-love-happy-valentine-s-day-concept-background-ai-generated-image-photo.jpg"
                         alt="not found"></span>
             </div>
         </div>
@@ -92,7 +92,7 @@ export default {
     display: grid;
     grid-template-rows: auto;
     gap: 10%;
-    text-align: left;
+    text-align: center;
     padding: 10px;
 }
 
