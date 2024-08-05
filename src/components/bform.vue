@@ -6,23 +6,23 @@
         <div class="rotate">
             <div class="scope">
                 <span style="--i:1;"><img src="https://i.pinimg.com/564x/b1/8f/fc/b18ffc5a92ba20ce7458c4d13b8c33b5.jpg"
-                        alt="not found"></span>
+                        alt="knowtogether"></span>
                 <span style="--i:2;"><img src="https://i.pinimg.com/736x/63/cd/b4/63cdb4c904176f5c47c33868c9fc1ad9.jpg"
-                        alt="not found"></span>
+                        alt="knowtogether"></span>
                 <span style="--i:3;"><img src="https://guidable.co/wp-content/uploads/2016/11/rose-1868654_640.jpg"
-                        alt="not found"></span>
+                        alt="knowtogether"></span>
                 <span style="--i:4;"><img src="https://t3.ftcdn.net/jpg/05/61/95/92/360_F_561959204_9phU1C8pi6PzjsSnfswZAqnDtsmTd8c3.jpg"
-                        alt="not found"></span>
+                        alt="knowtogether"></span>
                 <span style="--i:5;"><img src="https://cdn.wallpapersafari.com/50/85/cVN9Qw.jpg"
-                        alt="not found"></span>
+                        alt="knowtogether"></span>
                 <span style="--i:6;"><img src="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt19prodlp/products/p-red-and-pink-roses-bouquet-62563-m.jpg"
-                        alt="not found"></span>
+                        alt="knowtogether"></span>
                 <span style="--i:7;"><img
                         src="https://www.kindpng.com/picc/m/204-2049277_kawaii-cute-bunny-white-rabbit-cartoon-chibi-hd.png"
-                        alt="not found"></span>
+                        alt="knowtogether"></span>
                 <span style="--i:8;"><img
                         src="https://static.vecteezy.com/system/resources/previews/033/108/991/non_2x/super-cute-teddy-bears-couple-in-love-happy-valentine-s-day-concept-background-ai-generated-image-photo.jpg"
-                        alt="not found"></span>
+                        alt="knowtogether"></span>
             </div>
         </div>
         <div class="form">
@@ -35,11 +35,11 @@
                     </div>
                     <div>
                         <label for="instagram">🙇--how we gossip--👻</label><br>
-                        <input type="text" id="instagram" placeholder="insta or whatsapp..." v-model="form.instagram" required />
+                        <input type="text" id="instagram" placeholder="insta or whatsapp..." v-model="form.instagram"/>
                     </div>
                     <div>
                         <label for="message">--a msg for mee--😲</label>
-                        <br><textarea id="message"placeholder="waiting..." v-model="form.message" required></textarea>
+                        <br><textarea id="message"placeholder="waiting..." v-model="form.message"></textarea>
                     </div>
                     <button type="submit">Send</button>
                 </form>

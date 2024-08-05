@@ -6,7 +6,7 @@
                 by the way??.... Jii🥰🤗. I'm Satya. I was too querious to talk with but i was confused then i think to create this app for YOU---> let us be Friends.... </span></a>
         </div>
         <div class="3dmodle">
-            <img src="../assets/images/gojo.jpeg" alt="">
+            <img src="../assets/images/gojo.jpeg" alt="knowtogether">
         </div>
     </div>
 </template>
