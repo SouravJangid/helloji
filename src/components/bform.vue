@@ -35,7 +35,7 @@
                     </div>
                     <div>
                         <label for="instagram">🙇--how we gossip--👻</label><br>
-                        <input type="text" id="instagram" placeholder="insta or whatsapp..." v-model="form.instagram"/>
+                        <input type="text" id="instagram" placeholder="giv me urs insta or whatsapp..." v-model="form.instagram"/>
                     </div>
                     <div>
                         <label for="message">--a msg for mee--😲</label>
