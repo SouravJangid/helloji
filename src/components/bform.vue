@@ -1,3 +1,5 @@
+
+
 <script setup lang="ts">
 </script>
 
@@ -52,7 +54,7 @@
 
 <script>
 import emailjs from 'emailjs-com';
-
+import Swal from 'sweetalert2';
 export default {
     data() {
         return {
@@ -71,15 +73,37 @@ export default {
                 'template_8g68nmm',
                 this.form,
                 'ukihWQAISq14-MJ2N'
-            ).then((response) => {
-                this.status = 'I will Catch You Soon🥰🥰💕💕!';
+            )
+            .then((response) => {
+                this.status = 'Message sent successfully!';
                 this.form = {
                     name: '',
                     instagram: '',
                     message: ''
                 };
-            }).catch((error) => {
+
+                // Show popup
+                Swal.fire({
+                    title: "I'll quick text you..! 🥰💕",
+                    text: "Let's know eachOther...! 💌",
+                    icon: 'success',
+                    confirmButtonText: 'Okay',
+                    background: '#ffe4e1',
+                    color: '#ff69b4',
+                    confirmButtonColor: '#ff69b4'
+                });
+            })
+            .catch((error) => {
                 this.status = 'Failed to send message. Please try again.';
+                Swal.fire({
+                    title: 'Oops!',
+                    text: 'Failed to send your message. Please try again later.',
+                    icon: 'error',
+                    confirmButtonText: 'Retry',
+                    background: '#ffe4e1',
+                    color: '#ff69b4',
+                    confirmButtonColor: '#ff69b4'
+                });
             });
         }
     }
