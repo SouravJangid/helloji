@@ -19,5 +19,16 @@
     </script>
     <script src="https://www.youtube.com/iframe_api"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+      // Check if the page has been reloaded before
+      if (!sessionStorage.getItem("reloaded")) {
+        // Set a timeout to reload after 2 seconds
+        setTimeout(() => {
+          sessionStorage.setItem("reloaded", "true");
+          location.reload();
+        }, 2000);
+      }
+    </script>
+
   </body>
 </html>
